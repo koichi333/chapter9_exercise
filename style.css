@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+footer {
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+main {
+  width: 960px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.step-container {
+  display: flex;
+}
+
+.step-box {
+  position: relative;
+  padding: 10px;
+  background-color: #EEEEEE;
+}
+
+.step-box:nth-child(2) {
+  margin: 0 30px;
+}
+
+.step-box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 5px 0;
+  background-color: #FF9A4B;
+}
+
+.step1 .step-image {
+  width: 280px;
+  height: 150px;
+  background-image: url(./img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step2 .step-image {
+  width: 280px;
+  height: 150px;
+  background-image: url(./img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step3 .step-image {
+  width: 280px;
+  height: 150px;
+  background-image: url(./img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+h3 {
+  margin: 15px 0 5px 0;
+}
+
